@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Georgia', 'Roboto', sans-serif;
+    background-color: #F6F6F6;
+}
+/* .hero-img{
+    background-image: url(Untitled\ design\ \(1\).png);
+    background-size: cover;
+} */
+/* navbar css starts here  */
+.bg-light{
+    background-color: #2B2B2B!important;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.toggle-color{
+    background-color: #f9f3f3;
+}
+.navbar-brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    color:  #F1F1F1!important;
+}
+
+.nav-link{
+    color: #f9f3f3!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.nav-link:hover{
+    background-color: #222831;
+}
+
+.bgcolor-sm{
+    background-color: rgb(114, 108, 108);
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color:black!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(67, 83, 230)!important;
+}
+.table-danger1{
+    background-color: #4D77FF;
+    color: #f9f3f3;
+}
+
+.color{
+    color: white!important;
+    font-size: 22px!important;
+}
+
+.table-light1{
+    background-color: #fcfcfc;
+}
+
+.table-info1{
+    background-color: #fcfcfc;
+}

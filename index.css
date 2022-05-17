@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#5D8BF4;
+}
+
+
+/* navbar css starts here  */
+.image{
+    background: #4700D8;
+    background-image: url(Untitled\ design.png);
+    background-size:contain;
+}
+.abc{
+   background-color:#F7F5F2;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    background-color: #1C0A00;
+}
+
+
+.bg-light{
+    background-color: #F7F5F2!important;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.toggle-color{
+    background-color: #f9f3f3;
+}
+.navbar-brand{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    color:  #1C0A00!important;
+}
+
+.nav-link{
+    color: #1C0A00!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.nav-link:hover{
+    background-color: #D1D1D1;
+    border: 2px solid #444444;
+    border-radius: 10px;
+}
+/* navbar css ends here  */
+
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    color: black;
+    padding: 3rem;
+    margin-bottom: 1vh;
+    padding-left: 25rem;
+    margin-bottom: 1vh;
+    font-family: 'Comfortaa', 'cursive', 'Exo', sans-serif,'Nunito', sans-serif;
+    font-weight: bolder; 
+
+}
+.row{
+    margin-top: 70px;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .hero-img{
+        display: none;
+    }
+}
+
+/* @media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+} */
+.go-customers{
+    border-radius: 1.0rem;
+    border: 2px solid grey;
+    padding: 1rem 2rem;
+    font-size: 100%;
+    background-color: #fff;
+    color: black!important;
+    transition: 0.3s;
+}
+.go-customers:hover{
+    text-decoration: none;
+    background-color:dodgerblue;
+}
+
+.go-transaction{
+    border: 2px solid grey;
+    border-radius: 1.0rem;
+    padding: 1rem 2rem;
+    font-size: 100%;
+    background-color: #fff;
+    color: black!important;
+    transition: 0.3s;
+}
+
+.go-transaction:hover{
+    text-decoration: none;
+    background-color: dodgerblue;
+    
+}
+
+/* footer css starts here */
+footer{
+    background-color:  #383838;
+    margin-bottom: 0%;
+}
+.row{
+    margin-right: 0px;
+}
+
+.heading{
+    font-family: 'Sansita Swashed', 'cursive';
+    font-size: 1.5rem;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e!important;
+}
+
+.linkedin{
+    color: #0077b5!important;
+}
+
+.twitter{
+    color: #0077b5!important;
+}
